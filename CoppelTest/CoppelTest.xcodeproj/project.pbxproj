@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56CC2B222725D00D002825F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC2B212725D00D002825F7 /* AppDelegate.swift */; };
+		56CC2B242725D00D002825F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC2B232725D00D002825F7 /* SceneDelegate.swift */; };
+		56CC2B262725D00D002825F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC2B252725D00D002825F7 /* ViewController.swift */; };
+		56CC2B292725D00D002825F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC2B272725D00D002825F7 /* Main.storyboard */; };
+		56CC2B2B2725D00F002825F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CC2B2A2725D00F002825F7 /* Assets.xcassets */; };
+		56CC2B2E2725D00F002825F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CC2B2C2725D00F002825F7 /* LaunchScreen.storyboard */; };
+		56E77C0C27287C8100A0CD62 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C0B27287C8100A0CD62 /* ApiService.swift */; };
+		56E77C0F27287D1E00A0CD62 /* LoginApiRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C0E27287D1E00A0CD62 /* LoginApiRes.swift */; };
+		56E77C142728954B00A0CD62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C132728954B00A0CD62 /* LoginViewController.swift */; };
+		56E77C17272895AB00A0CD62 /* CoppelBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C16272895AB00A0CD62 /* CoppelBaseViewController.swift */; };
+		56E77C1A272895DF00A0CD62 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C19272895DF00A0CD62 /* UIViewController+Extension.swift */; };
+		56E77C1C272895FA00A0CD62 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C1B272895FA00A0CD62 /* UITextField+Extension.swift */; };
+		56E77C1F2728965500A0CD62 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C1E2728965500A0CD62 /* LoginTextFieldView.swift */; };
+		56E77C21272896A700A0CD62 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C20272896A700A0CD62 /* LoginViewModel.swift */; };
+		56E77C25272896D700A0CD62 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C24272896D700A0CD62 /* Box.swift */; };
+		56E77C28272896F200A0CD62 /* AutoLayoutWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C27272896F200A0CD62 /* AutoLayoutWrapper.swift */; };
+		56E77C2A2728971300A0CD62 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C292728971300A0CD62 /* SpinnerViewController.swift */; };
+		56E77C2C2728974E00A0CD62 /* LoginVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C2B2728974E00A0CD62 /* LoginVCViewModel.swift */; };
+		56E77C2E2728992900A0CD62 /* ResultVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C2D2728992900A0CD62 /* ResultVCViewModel.swift */; };
+		56E77C302728D4F000A0CD62 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E77C2F2728D4F000A0CD62 /* ResultViewController.swift */; };
+		56E77C322728EF2600A0CD62 /* CellMovie.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E77C312728EF2600A0CD62 /* CellMovie.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56CC2B1E2725D00D002825F7 /* CoppelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoppelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CC2B212725D00D002825F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56CC2B232725D00D002825F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56CC2B252725D00D002825F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56CC2B282725D00D002825F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56CC2B2A2725D00F002825F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CC2B2D2725D00F002825F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56CC2B2F2725D00F002825F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E77C0B27287C8100A0CD62 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		56E77C0E27287D1E00A0CD62 /* LoginApiRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiRes.swift; sourceTree = "<group>"; };
+		56E77C132728954B00A0CD62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56E77C16272895AB00A0CD62 /* CoppelBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelBaseViewController.swift; sourceTree = "<group>"; };
+		56E77C19272895DF00A0CD62 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		56E77C1B272895FA00A0CD62 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		56E77C1E2728965500A0CD62 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		56E77C20272896A700A0CD62 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		56E77C24272896D700A0CD62 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		56E77C27272896F200A0CD62 /* AutoLayoutWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutWrapper.swift; sourceTree = "<group>"; };
+		56E77C292728971300A0CD62 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		56E77C2B2728974E00A0CD62 /* LoginVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewModel.swift; sourceTree = "<group>"; };
+		56E77C2D2728992900A0CD62 /* ResultVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVCViewModel.swift; sourceTree = "<group>"; };
+		56E77C2F2728D4F000A0CD62 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		56E77C312728EF2600A0CD62 /* CellMovie.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMovie.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56CC2B1B2725D00D002825F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56CC2B152725D00D002825F7 = {
+			isa = PBXGroup;
+			children = (
+				56CC2B202725D00D002825F7 /* CoppelTest */,
+				56CC2B1F2725D00D002825F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56CC2B1F2725D00D002825F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CC2B1E2725D00D002825F7 /* CoppelTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56CC2B202725D00D002825F7 /* CoppelTest */ = {
+			isa = PBXGroup;
+			children = (
+				56CC2B212725D00D002825F7 /* AppDelegate.swift */,
+				56CC2B2A2725D00F002825F7 /* Assets.xcassets */,
+				56E77C18272895C500A0CD62 /* Extension */,
+				56CC2B2F2725D00F002825F7 /* Info.plist */,
+				56CC2B2C2725D00F002825F7 /* LaunchScreen.storyboard */,
+				56CC2B272725D00D002825F7 /* Main.storyboard */,
+				56E77C0D27287D0500A0CD62 /* Model */,
+				56E77C0A27287C6700A0CD62 /* Network */,
+				56CC2B232725D00D002825F7 /* SceneDelegate.swift */,
+				56E77C152728958E00A0CD62 /* Utilities */,
+				56CC2B252725D00D002825F7 /* ViewController.swift */,
+				56E77C1027287DFC00A0CD62 /* ViewModels */,
+				56E77C112728952800A0CD62 /* Views */,
+			);
+			path = CoppelTest;
+			sourceTree = "<group>";
+		};
+		56E77C0A27287C6700A0CD62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C0B27287C8100A0CD62 /* ApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		56E77C0D27287D0500A0CD62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C0E27287D1E00A0CD62 /* LoginApiRes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56E77C1027287DFC00A0CD62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C2B2728974E00A0CD62 /* LoginVCViewModel.swift */,
+				56E77C20272896A700A0CD62 /* LoginViewModel.swift */,
+				56E77C2D2728992900A0CD62 /* ResultVCViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		56E77C112728952800A0CD62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C1D2728963B00A0CD62 /* Components */,
+				56E77C122728953400A0CD62 /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56E77C122728953400A0CD62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C132728954B00A0CD62 /* LoginViewController.swift */,
+				56E77C2F2728D4F000A0CD62 /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56E77C152728958E00A0CD62 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C16272895AB00A0CD62 /* CoppelBaseViewController.swift */,
+				56E77C24272896D700A0CD62 /* Box.swift */,
+				56E77C27272896F200A0CD62 /* AutoLayoutWrapper.swift */,
+				56E77C292728971300A0CD62 /* SpinnerViewController.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		56E77C18272895C500A0CD62 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C19272895DF00A0CD62 /* UIViewController+Extension.swift */,
+				56E77C1B272895FA00A0CD62 /* UITextField+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		56E77C1D2728963B00A0CD62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				56E77C1E2728965500A0CD62 /* LoginTextFieldView.swift */,
+				56E77C312728EF2600A0CD62 /* CellMovie.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56CC2B1D2725D00D002825F7 /* CoppelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CC2B322725D00F002825F7 /* Build configuration list for PBXNativeTarget "CoppelTest" */;
+			buildPhases = (
+				56CC2B1A2725D00D002825F7 /* Sources */,
+				56CC2B1B2725D00D002825F7 /* Frameworks */,
+				56CC2B1C2725D00D002825F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoppelTest;
+			productName = CoppelTest;
+			productReference = 56CC2B1E2725D00D002825F7 /* CoppelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56CC2B162725D00D002825F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					56CC2B1D2725D00D002825F7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 56CC2B192725D00D002825F7 /* Build configuration list for PBXProject "CoppelTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56CC2B152725D00D002825F7;
+			productRefGroup = 56CC2B1F2725D00D002825F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56CC2B1D2725D00D002825F7 /* CoppelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CC2B1C2725D00D002825F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CC2B2E2725D00F002825F7 /* LaunchScreen.storyboard in Resources */,
+				56CC2B2B2725D00F002825F7 /* Assets.xcassets in Resources */,
+				56E77C322728EF2600A0CD62 /* CellMovie.xib in Resources */,
+				56CC2B292725D00D002825F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CC2B1A2725D00D002825F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E77C1C272895FA00A0CD62 /* UITextField+Extension.swift in Sources */,
+				56E77C1A272895DF00A0CD62 /* UIViewController+Extension.swift in Sources */,
+				56E77C21272896A700A0CD62 /* LoginViewModel.swift in Sources */,
+				56E77C17272895AB00A0CD62 /* CoppelBaseViewController.swift in Sources */,
+				56E77C142728954B00A0CD62 /* LoginViewController.swift in Sources */,
+				56CC2B262725D00D002825F7 /* ViewController.swift in Sources */,
+				56E77C2E2728992900A0CD62 /* ResultVCViewModel.swift in Sources */,
+				56E77C0F27287D1E00A0CD62 /* LoginApiRes.swift in Sources */,
+				56E77C302728D4F000A0CD62 /* ResultViewController.swift in Sources */,
+				56E77C1F2728965500A0CD62 /* LoginTextFieldView.swift in Sources */,
+				56CC2B222725D00D002825F7 /* AppDelegate.swift in Sources */,
+				56E77C2C2728974E00A0CD62 /* LoginVCViewModel.swift in Sources */,
+				56E77C25272896D700A0CD62 /* Box.swift in Sources */,
+				56E77C28272896F200A0CD62 /* AutoLayoutWrapper.swift in Sources */,
+				56E77C0C27287C8100A0CD62 /* ApiService.swift in Sources */,
+				56E77C2A2728971300A0CD62 /* SpinnerViewController.swift in Sources */,
+				56CC2B242725D00D002825F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56CC2B272725D00D002825F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CC2B282725D00D002825F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56CC2B2C2725D00F002825F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CC2B2D2725D00F002825F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56CC2B302725D00F002825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56CC2B312725D00F002825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56CC2B332725D00F002825F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8H4MTCN35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoppelTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoppelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56CC2B342725D00F002825F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8H4MTCN35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoppelTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoppelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56CC2B192725D00D002825F7 /* Build configuration list for PBXProject "CoppelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CC2B302725D00F002825F7 /* Debug */,
+				56CC2B312725D00F002825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CC2B322725D00F002825F7 /* Build configuration list for PBXNativeTarget "CoppelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CC2B332725D00F002825F7 /* Debug */,
+				56CC2B342725D00F002825F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56CC2B162725D00D002825F7 /* Project object */;
+}
